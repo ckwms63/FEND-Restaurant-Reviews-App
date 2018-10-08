@@ -3,16 +3,16 @@
 /* CSS Document */
 
 body,td,th,p{
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
-	color: #333;
-	line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color: #333;
+  line-height: 1.5;
 }
 
 body {
-	background-color: #fdfdfd;
-	margin: 0;
-	position:relative;
+  background-color: #fdfdfd;
+  margin: 0;
+  position:relative;
 }
 
 ul, li {
@@ -22,7 +22,7 @@ ul, li {
 }
 
 a {
-  color: orange;
+  color: #f18200;
   text-decoration: none;
 }
 
@@ -36,8 +36,8 @@ a img{
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Arial, Helvetica, sans-serif;
-	margin: 0 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 20px;
 }
 
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -87,13 +87,13 @@ nav h1 a {
   background-color: #eee;
   font-size: 18px;
   margin: 0;
-	width: 100%;
+  width: 100%;
 }
 
 /* Display list items side by side */
 #breadcrumb li {
   display: inline;
-	font-size: .95em;
+  font-size: .95em;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -113,6 +113,8 @@ nav h1 a {
 #breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
+}
+
 /* ====================== Map ====================== */
 
 #map {
@@ -128,14 +130,14 @@ nav h1 a {
   background-color: #006598;
   align-items: center;
   padding: 10px 0;
-	display: flex;
+  display: flex;
   flex-direction: row;
 }
 
 .filter-options h2 {
   color: white;
   font-size: 1rem;
-	font-weight: normal;
+  font-weight: normal;
   line-height: 1;
   margin: 0 20px 0px;
 }
@@ -204,7 +206,7 @@ nav h1 a {
 
 #restaurants-list li a {
   background-color: orange;
-	color: #333;
+  color: #333;
   display: inline-block;
   font-size: 11pt;
   margin: 15px 0 0;
@@ -221,6 +223,7 @@ nav h1 a {
 
 
 /* ====================== Restaurant Details ====================== */
+
 .inside header {
   position: fixed;
   top: 0;
@@ -230,8 +233,8 @@ nav h1 a {
 
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-	height: 82%;
-	width: 49%;
+  height: 82%;
+  width: 49%;
   right: 0;
   position: fixed;
   top: 125px;
@@ -246,7 +249,7 @@ nav h1 a {
 .inside #footer {
   position: absolute;
   width: 100%;
-	text-align: center;
+  text-align: center;
 }
 
 #restaurant-name {
@@ -283,7 +286,7 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-	padding: 150px 20px 30px;
+  padding: 150px 20px 30px;
   width: 49%;
 }
 
@@ -312,7 +315,7 @@ nav h1 a {
   padding: 0 20px 20px;
   position: relative;
   width: 87%;
-	border-radius: 20px 0 20px 0;
+  border-radius: 20px 0 20px 0;
 }
 
 #reviews-list .review_Name {
@@ -365,33 +368,33 @@ nav h1 a {
 }
 
 .inside #maincontent {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .inside #map-container {
-	position: relative;
-	height: 400px;
-	width: 100%;
+  position: relative;
+  height: 400px;
+  width: 100%;
 }
 
 #breadcrumb {
-	padding-left: 0;
-	padding-right: 0;
-	text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
 }
 
 #restaurant-container, #reviews-container {
-	width: 100%;
+  width: 100%;
 }
 
 .leaflet-control-zoom .leaflet-bar .leaflet-control {
-	margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .filter-options {
-	flex-direction: column;
-	align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 }
