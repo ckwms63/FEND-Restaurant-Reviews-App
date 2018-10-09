@@ -73,6 +73,7 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.alt = restaurant.name; //to add image alt text for screen reader
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
@@ -127,9 +128,6 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
 }
 
 /**
- * Create review HTML and add it to the webpage.
- */
- /**
  * Create review HTML and add it to the webpage.
  */
  createReviewHTML = (review) => {
